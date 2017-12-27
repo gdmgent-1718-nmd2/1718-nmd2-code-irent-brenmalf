@@ -8,13 +8,37 @@
 // Color system
 //
 
-$indigo:  #6610f2;
-$primary: $indigo;
+$blue:  #1DB9DE;
+$white: #FFF;
+$black: #000;
+
+$primary: $blue;
+$dark: $black;
+
+$navbar-dark-color: $white;
+$navbar-dark-toggler-border-color: none;
+$nav-link-padding-y: 1rem;
+$nav-link-padding-x: 1.5rem;
 
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900');
 
-$font-family-base: Merriweather, serif;
+$font-family-base: 'Lato', sans-serif;
+
+
+$btn-border-radius: 50px;
+$input-border-radius: 50px;
+$border-radius: 50px;
+$input-btn-padding-y: .75rem;
+$input-btn-padding-x: 1.25rem;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1000px
+) ;

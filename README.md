@@ -1,4 +1,4 @@
-New Media Design II 2017-2018
+<!-- New Media Design II 2017-2018
 =============================
 
 Opdracht iRent
@@ -60,4 +60,15 @@ Op GitHub ga je naar je repository en klik op **Settings**. Scroll naar beneden 
 ### Voorbeeldsite
 
  - Basissjabloon <https://gdmgent-1718-nmd2.github.io/1718-nmd2-code-irent>
- - Persoonlijke repo van Bart Missant <https://gdmgent-1718-nmd2.github.io/1718-nmd2-code-irent-Bartmi>
+ - Persoonlijke repo van Bart Missant <https://gdmgent-1718-nmd2.github.io/1718-nmd2-code-irent-Bartmi> -->
+
+ # Airmood
+Een multi-page website voor een verhuurdienst
+
+| Student       | Brent Malfliet                             |
+|---------------|--------------------------------------------|
+| OLOD          | New Media Design II                        |
+| Opleiding     | Bachelor in de Grafische en Digitale Media |
+| Keuzerichting | Crossmedia Ontwerp                         |
+| Academiejaar  | 2017—2018                                  |
+| School        | Arteveldehogeschool                        |

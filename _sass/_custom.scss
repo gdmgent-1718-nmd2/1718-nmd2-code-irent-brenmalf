@@ -1,0 +1,174 @@
+$pink: #EC6EA6;
+$yellow: #FFDD00;
+$blue: #1DB9DE;
+$darkblue: #00009e;
+
+.yellow { background: $yellow; }
+.pink { background: $pink; }
+.blue { background: $blue; }
+.white {color: white;}
+.darkblue {color: $darkblue;}
+.bluetype {color: $blue;}
+
+.navbar-brand, .nav-item a {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 300;
+}
+.hr-menu {
+    margin: 0;
+    border: .5px solid rgba(255,255,255,.5);
+}
+
+.card {
+    padding: 40px 15px;
+    border: none;
+    border-radius: 0%;
+    margin-bottom: 85px;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+#frontpage {
+    width: 100%;
+    // height: 100vh;
+
+    background-image: url(../../images/balloon2.png), linear-gradient(#1DB9DE, #FFF);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 165px, 100% 90vh;
+}
+.logo-home {
+    margin-top: 100px;
+    margin-bottom: 320px;
+}
+
+.balloon {
+    z-index: 0;
+    position: relative;
+    top: 50px;
+    margin-bottom: 200px;
+}
+
+.reserveer {
+    z-index: 999;
+    margin-bottom: 100px;
+}
+
+
+h3, h4, h5 {
+    font-family: 'Merriweather', sans-serif;
+}
+
+.quote {
+    color: $darkblue;
+    padding: 10px 25px;
+}
+
+hr {
+    border: .5px solid $darkblue;
+}
+
+.about-icons {
+    padding: 10px;
+}
+
+.img-margin {
+    margin: 30px 0px;
+}
+.no-padding {
+    padding: 0;
+    margin-top: -50px;
+}
+
+.wacht {
+    margin-top: 300px;
+}
+.footer {
+    margin-top: 40px;
+    padding: 50px 15px;
+}
+
+.bestelling {
+    border: 1px solid #666;
+    padding: 15px;
+}
+.service-option {
+    background: $yellow;
+    margin-bottom: 5px;
+}
+.arrow {
+    padding-top: 15px;
+}
+.border-right {
+    border-right: 1px solid black;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+.prijs {
+    margin-bottom: -50px;
+}
+.images {
+    height: 200px;
+    overflow: hidden;
+}
+#frontpage {margin-top: -50px;}
+
+.doos {
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    #frontpage{   
+        background-size: 170px, 100% 90vh;
+        background-position: 50% 230px, top left;
+    }
+
+    .logo-home {
+        margin-top: 200px;
+        margin-bottom: 600px;
+    }
+    .card {
+        padding: 50px 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .service-img {
+        padding: 50px;
+    }
+
+    .service-option {
+        margin-bottom: 0px;
+    }
+    #frontpage{   
+        background-size: 155px, 100% 90vh;
+        background-position: 50% 100px, top left;
+
+    }
+    .logo-home {
+        margin-top: 150px;
+        margin-bottom: 450px;
+    }
+    .card {
+        padding: 50px 80px;
+    }
+
+    .about-icons {
+        padding: 25px;
+    }
+}

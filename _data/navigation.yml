@@ -1,15 +1,20 @@
 - title : Home
   url   : /index.html
-- title : Team
-  url   : /team.html
+- title : Over Ons
+  url   : /over-ons.html
+- title : Product
+  url   : /product.html
 - title : Winkelmandje
   url   : /winkelmandje.html
-- title : Series
-  url   : /series
-  sublinks:
-    - title : dr. Who
-      url   : /series/drwho.html
-    - title : Dexter
-      url   : /series/dexter.html
-- title : Contact
-  url   : /contact.html
+- title : Klantenservice
+  url   : /klantenservice.html
+- title : Mijn bestellingen
+  url   : /bestellingen.html
+# - title : Series
+#   url   : /series
+#   sublinks:
+#     - title : dr. Who
+#       url   : /series/drwho.html
+#     - title : Dexter
+#       url   : /series/dexter.html
+      
