@@ -11,8 +11,10 @@
 $blue:  #1DB9DE;
 $white: #FFF;
 $black: #000;
+$darkblue: #00009e;
 
 $primary: $blue;
+$secondary: $darkblue;
 $dark: $black;
 
 $navbar-dark-color: $white;
@@ -42,3 +44,12 @@ $container-max-widths: (
   lg: 960px,
   xl: 1000px
 ) ;
+
+$headings-margin-bottom: 1rem;
+$table-border-color: none;
+
+// Progress bars
+
+$progress-height: 3rem;
+$progress-bar-bg: $darkblue;
+$link-color: $darkblue;

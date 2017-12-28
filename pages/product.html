@@ -5,37 +5,100 @@ permalink: product
 # ─────────────────────
 title: Product
 ---
+<div class="col-12 ">
+    <h1>Reserveer <br>
+        hier!<br>
+        —
+    </h1>
+    <hr>
+                <div class="row ">
+                    <div class="col-5 col-lg-3">
+                        <img src="{{ site.baseurl }}/images/balloon-black.png" class="img-fluid" alt="">        
+                    </div>
+                    <div class="col-7 col-lg-6">
+                        <p>Airmood</p>
+                        <h4> Ballon</h4>
+                        <p> Incl. kabel<br>
+                            Geleverd in verzwaarde doos</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <h3 class="text-danger font-weight-bold">€15<small>/uur</small></h3>
+                        <h3 class="text-danger font-weight-bold">€200<small>/dag</small></h3>
+                        <small class="text-success">Op voorraad. Voor 23:59 uur besteld, morgen in huis</small>
 
-<div class="col-12">
+
+                        <button class="btn btn-secondary mx-auto doos" data-toggle="modal" data-target="#aankoop"><i class="fa fa-plus-circle" aria-hidden="true"></i> In winkelmandje </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="aankoop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">   
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <p class="modal-title text-success" id="exampleModalLabel"><i class="fa fa-check-circle" aria-hidden="true"></i> Het artikel is toegevoegd aan het winkelmandje</p>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Je hebt succesvol een Airmood Ballon gereserveerd!
+                                    </div>
+                                    <div class="modal-footer text-left">
+                                        <button type="button" class="btn btn-outline-secondary float-left" data-dismiss="modal"><i class="fa fa-angle-left" aria-hidden="true"></i> Terug</button>
+                                        <a class="btn btn-secondary float-right" href="winkelmandje.html">Naar winkelmandje <i class="fa fa-angle-right" aria-hidden="true"></i></a>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+        
+                    
+                </div>
+            <hr>
+
+
+</div>
+
+
+<div class="container-fluid">
     <div class="images">
         <img src="{{ site.baseurl }}/images/kevlar.jpg" class="img-fluid w-100 d-inline-block" alt="">    
     </div>
-    <h3>Duurzaam rubber &amp; Elektrolumeniscente eigenschappen</h3>
+</div>
+
+<div class="col-12">
+    <h4>Duurzaam rubber &amp; Elektrolumeniscente eigenschappen</h4>
     <p>Onze Airmood ballon verschilt met een normale ballon door zijn uiterst duurzame rubber. Verder is de ballon is in staat om op te lichten onder elektrische stroom.</p> 
     
     <hr>
-        <h3 class="text-center">"Laat iedereen weten hoe het met je gaat!"</h3>
+        <h4 class="quote">"Laat iedereen weten hoe het met je gaat!"</h4>
     <hr>
 </div>
-<div class="col-12 col-lg-6">            
-    <img src="{{ site.baseurl }}/images/airmood-app.png" class="img-fluid" alt="">
+<div class="container-fluid col-lg-6">            
+    <img src="{{ site.baseurl }}/images/airmood-app.png" class="img-fluid img-margin" alt="Airmood application">
 </div>
-<div class="col-12 col-lg-6">            
-    <h3>Plug de Airmoodkabel in je smartphone en gebruik de Airmood-app</h3>
+<div class="col-12 col-lg-6 more-margin">            
+    <h4>Plug de Airmoodkabel in je smartphone en gebruik de Airmood-app</h4>
     <p>Op deze manier kan via de Airmood-app automatisch je gemoedstoestand gemeten en weergegeven worden onder vorm van een bepaalde kleur van de ballon.</p>   
 </div>
-<div class="col-6">
-    <img src="{{ site.baseurl }}/images/glow.png" class="img-fluid" alt="">        
+</div> <!--end of row -->
+<div class="row">
+        <div class="col-5 col-lg-6 align-middle order-lg-2">
+            <img src="{{ site.baseurl }}/images/glow.png" class="img-fluid service-img" alt="Smiling balloon">        
+        </div>
+        <div class="col-7 col-lg-6 order-lg-1 more-margin">
+            <p class="text-lg-right">Gebruik de app om boodschappen en emojis te laten ver-schijnen, vergelijkbaar met een led screen display.</p>
+            <a class="btn btn-secondary mx-auto float-lg-right" href="https://play.google.com/store" target="_blank">Download App <i class="fa fa-angle-right" aria-hidden="true"></i></a>    
+        </div>
 </div>
-<div class="col-6">
-    <p>Gebruik de app om boodschappen en emojis te laten ver-schijnen, vergelijkbaar met een led screen display.</p>
-    <a class="btn btn-primary mx-auto d-block" href="https://play.google.com/store">Download App <i class="fa fa-angle-right" aria-hidden="true"></i></a>    
-</div>
-<div class="col-12">
-    <img src="{{ site.baseurl }}/images/balloons.jpg" class="img-fluid" alt="">
-    <p>Geleverd in een verzwaarde doos, incl. kabel </p>
-</div>
-<div class="col-12 pink">
-    <h1>Meer info? <br>—</h1>
-    <a class="btn btn-primary mx-auto d-block" href="klantenservice.html">Klantenservice <i class="fa fa-angle-right" aria-hidden="true"></i></a>        
-</div>
+
+<div class="row">
+    <div class="container-fluid">
+        <img src="{{ site.baseurl }}/images/box.jpg" class="img-fluid img-margin" alt="Airmood doos">
+        <div class="col-12">
+            <h4>Geleverd in een verzwaarde doos, incl. kabel </h4>
+        </div>
+    </div>
+    <div class="col-12 yellow info">
+        <h1>Meer <br>info? <br>—</h1>
+        <a class="btn btn-secondary mx-auto d-block" href="klantenservice.html">Klantenservice <i class="fa fa-angle-right" aria-hidden="true"></i></a>        
+    </div>

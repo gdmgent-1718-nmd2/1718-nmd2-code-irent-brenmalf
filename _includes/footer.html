@@ -1,18 +1,64 @@
+<nav class="navbar footer pink flex-column">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <label class="white">Schrijf je nu in op onze nieuwsbrief!</label>
+                <div class="input-group input-group-sm ">
+                    <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" placeholder="E-mailadres" aria-label="Username" aria-describedby="sizing-addon2">
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    </span>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-12 col-lg-4 footer-list d-none d-md-block">
+                <h4>Airmood</h4>
+                <ul class="navbar-nav mr-auto">
+                        {% assign links = site.data.navigation %}
+                        {% for link in links %}
+                            {% assign class = nil %}
+                            {% if link.url contains page.url %}
+                                {% assign class = ' active' %}
+                            {% endif %}
+                                <li class="nav-item{{ class }}">
+                                    <a class="nav-link{{ class }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                                </li>
+                        {% endfor %}
+                    </ul>
+            </div>
+            <div class="col-12 col-lg-4 footer-list d-none d-md-block">
+                <h4>Klantenservice</h4>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="voorwaarden.html">Verkoops- en leveringsvoorwaarden</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="disclaimer.html">Disclaimer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vragen.html">Meestgestelde vragen</a>
+                    </li>
+                    <li>
+                        {%- if site.show-style-guide %}
+                        <a class="nav-link" href="{{ site.baseurl }}{% link style-guide/index.md %}">Style Guide</a>
+                        {%- endif %}
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-4 footer-list">
+                    <h4 class="d-none d-md-block">Social media</h4>
+                    <a href="https://www.twitter.com/"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://plus.google.com/"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
 <!-- <nav class="navbar fixed-bottom navbar-light bg-light">
         {%- if site.show-style-guide %}
     <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
 {%- endif %}
 </nav> -->
-
-<nav class="navbar footer pink">
-    <div class="container">
-        <label class="white">Schrijf je nu in op onze nieuwsbrief!</label>
-        <div class="input-group input-group-sm ">
-            <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-            <input type="text" class="form-control" placeholder="E-mailadres" aria-label="Username" aria-describedby="sizing-addon2">
-            <span class="input-group-btn">
-                <button class="btn btn-primary" type="button"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-            </span>
-        </div>
-    </div>
-</nav>

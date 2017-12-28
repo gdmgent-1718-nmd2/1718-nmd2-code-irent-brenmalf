@@ -7,22 +7,23 @@ title       : Winkelmandje
 ---
 
 <div class="col-12">
-    <a class="btn btn-primary float-left" href="product.html"><i class="fa fa-angle-left" aria-hidden="true"></i> Verder winkelen </a>        
-    <a class="btn btn-primary float-right" href="">Bestellen <i class="fa fa-angle-right" aria-hidden="true"></i></a>        
+    <a class="btn btn-outline-secondary float-left" href="product.html"><i class="fa fa-angle-left" aria-hidden="true"></i> Verder winkelen </a>        
+    <a class="btn btn-secondary float-right" href="formulier.html">Bestellen <i class="fa fa-angle-right" aria-hidden="true"></i></a>        
 </div>
 <div class="col-12">
     <hr>
 </div>
-<div class="col-5">
-    <img src="{{ site.baseurl }}/images/balloon-white.gif" class="img-fluid" alt="">        
+<div class="col-4">
+    <img src="{{ site.baseurl }}/images/balloon-black.jpg" class="img-fluid" alt="">        
 </div>
-<div class="col-7">
-    <h3>BALLON</h3>
-    <p>Op voorraad</p>
+<div class="col-8 more-margin">
+    <h4>Airmood Ballon</h4>
+    <p class="text-success">Op voorraad</p>
     <form>
           <div class="form-group row">
-            <label for="inputEmail3" class="col-6 col-form-label"><i class="fa fa-2x fa-trash text-left" aria-hidden="true"></i></label>
-            <div class="col-6">
+            <label for="inputEmail3" class="col-6 col-lg-10 col-form-label"><i class="fa fa-2x fa-trash text-left float-left" aria-hidden="true"></i><p class="d-none d-lg-block"> Verwijder</p></label>
+            <div class="col-6 col-lg-2">
+                <p class="d-none d-lg-block"> Aantal</p>
                 <select class="form-control" id="exampleFormControlSelect1">
                     <option>1</option>
                     <option>2</option>
@@ -90,18 +91,33 @@ title       : Winkelmandje
             Aantal dagen
         </small>
     </div>
+    <hr>
     </form>
 </div>
 <div class="col-12 yellow prijs">
-    <p class="float-left">Totaal artikelen (1)</p>
-    <p class="text-right">€15</p>
-    <p class="float-left">Tijdsduur (6uur)</p>
-    <p class="text-right">x6</p>
-    <p class="float-left">Verzendkosten</p>
-    <p class="text-right">Gratis</p>
-    <hr>
-    <p class="float-left">Totaal</p>
-    <p class="text-right">€90</p>
-    <a class="btn btn-primary float-right" href="">Bestellen <i class="fa fa-angle-right" aria-hidden="true"></i></a>        
-
+    <table class="table table-sm">
+        <tbody>
+            <tr>
+                <td>Totaal artikelen (1)</td>
+                <td class="text-right">€15</td>
+            </tr>
+            <tr>
+                <td>Tijdsduur (6uur)</td>
+                <td class="text-right">x6</td>
+            </tr>
+            <tr>
+                <td>Verzendkosten</td>
+                <td class="text-right">Gratis</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Totaal</th>
+                <th class="text-right">€90</th>
+            </tr>
+        </tfoot>
+    </table>
+    <div>
+        <a class="btn btn-secondary d-block float-right top" href="formulier.html">Bestellen <i class="fa fa-angle-right" aria-hidden="true"></i></a>        
+    </div>
 </div>
